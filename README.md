@@ -23,8 +23,8 @@ cd hippocampal-spike-prediction
 pip install -r requirements.txt
 ```
 
-## Data
-The Allen Brain Observatory's Visual Coding - Neuropixels dataset : https://allensdk.readthedocs.io/en/latest/visual_coding_neuropixels.html 
+## Source Data
+Allen Brain Observatory's Visual Coding - Neuropixels dataset : https://allensdk.readthedocs.io/en/latest/visual_coding_neuropixels.html 
 
 ## Understanding the Dataset
 The Visual Coding - Neuropixels dataset is complex. Each experimental recording involves multiple layers of IDs. To work with the data effectively, it's important to understand how the hierarchy is structured:
