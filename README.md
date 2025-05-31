@@ -23,5 +23,13 @@ cd hippocampal-spike-prediction
 pip install -r requirements.txt
 ```
 
+## Understanding the Dataset
+The Visual Coding - Neuropixels dataset is complex. Each experimental recording involves multiple layers of IDs. To work with the data effectively, it's important to understand how the hierarchy is structured:
+
+- **Session:** A single experimental recording from one mouse
+- **Probe:** A Neuropixels device inserted into the brain; each session may contain multiple probes
+- **Channel:** Each probe has hundreds of recording channels positioned along its shank
+- **Unit/Neuron:** Channels pick up spike waveforms, which are then grouped into units that represent individual neurons
+
 ## Acknowledgements
 Thank you to Dr. Mayank Mehta from the UCLA Mehta Lab for his mentorship and guidance. Data provided by the Allen Brain Observatory (Visual Coding - Neuropixels).
