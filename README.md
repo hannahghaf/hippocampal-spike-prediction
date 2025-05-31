@@ -14,14 +14,14 @@ Using hippocampal LFP and behavior data from the Allen Brain Observatory, traine
 - Strong performance achieved (R^2 = 0.918)
 
 ## Installation
-'''bash
+```bash
 # Clone the repo
 git clone https://github.com/user/hippocampal-spike-prediction.git
 cd hippocampal-spike-prediction
 
 # Install dependencies
 pip install -r requirements.txt
-'''
+```
 
 ## Acknowledgements
 Thank you to Dr. Mayank Mehta from the UCLA Mehta Lab for his mentorship and guidance. Data provided by the Allen Brain Observatory (Visual Coding - Neuropixels).
